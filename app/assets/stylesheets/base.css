@@ -34,33 +34,6 @@ body {
  line-height: 3vh;
 }
 
-#user_breadcrumb {
- border-bottom-color: #4eaacc;
- border-bottom-width: 3px;
- border-bottom-style: solid;
- display: inline-block;
- margin-left: 35vw;
- margin-top: 6vh;
- width: 18vw;
- text-align: center;
- font-size: 1rem;
- font-weight: 500;
- padding-bottom: 13px;
-}
-
-#note_breadcrumb {
-  border-bottom-color: #4eaacc;
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  display: inline-block;
-  margin-top: 6vh;
-  width: 18vw;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 500;
-  padding-bottom: 13px;
-}
-
 /*End Header Css*/
 
 /*Begin Form CSS*/
