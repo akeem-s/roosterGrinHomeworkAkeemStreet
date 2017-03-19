@@ -3,8 +3,6 @@
 
 https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_1.png 
 
-https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_2.png 
-
 Initialization
 bundle install
 rake db:create
