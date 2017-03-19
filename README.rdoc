@@ -1,16 +1,16 @@
 == Akeem's Rooster Grin Homework
 
-## Initialization
+Initialization
 bundle install
 rake db:create
 rake db:migrate
 rake db:seed
 rails s
 
-## Tech
+Tech
 RoR, HTML5, CSS, JavaScript, jQuery, MaterializeCss
 
-## Potential Future Improvements
+Potential Future Improvements
 * Error handling in NotesController, rather than front end error handling currently in place
 * Resolve issue with MaterializeCss and Roboto fonts that is causing errors on load
 * Edit Materialize.js to change color of underline of input
