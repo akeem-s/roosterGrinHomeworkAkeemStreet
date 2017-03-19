@@ -69,4 +69,16 @@
   margin-left: 20vw;
   margin-right: 20vw;
 }
+
+.error_container{
+  color: red;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#note_container{
+  color: green;
+  font-weight: 500;
+  font-style: italic;
+}
 /*End Form Css*/
