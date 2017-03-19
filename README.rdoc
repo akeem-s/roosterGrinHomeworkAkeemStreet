@@ -12,6 +12,7 @@ RoR, HTML5, CSS, JavaScript, jQuery, MaterializeCss
 
 #Potential Future Improvements
 * Error handling in NotesController, rather than front end error handling currently in place
+* Resolve issue with MaterializeCss and Roboto fonts that is causing errors on load
 * Underline of input color is wrong
 * General UI/UX improvements
 * Test Suite

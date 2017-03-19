@@ -19,9 +19,10 @@ body {
  flex: .2;
  flex-direction: column;
  margin-left: 0;
- margin-top: 5vh;
- height: 10vh;
+ padding-top: 5vh;
+ height: 20vh;
  width: 100%;
+ background-color: #4eaacc;
 }
 
 #header_title {
@@ -29,7 +30,8 @@ body {
  align-self: center;
  margin-left: 5vw;
  margin-top: 4vh;
- color: #404040;
+ color: white;
+ line-height: 3vh;
 }
 
 #user_breadcrumb {
@@ -111,12 +113,23 @@ body {
     width: 100%;
 }
 
+.attributes {
+ font-size: 13px;
+ font-weight: 400;
+ padding: 0 25px;
+ color: #4eaacc;
+ word-spacing: 22px;
+}
+
 .example {
  font-size: 13px;
  font-weight: 400;
- font-style: italic;
- padding: 0 15px;
+ padding: 0 25px;
  color: #4eaacc;
+}
+
+.example_headers {
+  color: #404040;
 }
 
 form {
@@ -129,9 +142,18 @@ form {
  flex: .8;
  height: 90vh;
  width: 60vw;
- margin-top: 5vh;
+ margin-top: 10vh;
  margin-left: 20vw;
  margin-right: 20vw;
+}
+
+.instruction_headers {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
 }
 
 legend {
@@ -151,13 +173,7 @@ legend {
   color: #4eaacc;
 }
 
-table {
- margin-bottom: 1em;
-}
-
-td {
- font-size: 14px;
- padding: 0 15px;
- color: #4eaacc;
+.subheader {
+  font-weight: 500;
 }
 /*End Form Css*/
