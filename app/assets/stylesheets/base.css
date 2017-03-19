@@ -157,7 +157,7 @@ form {
 }
 
 legend {
- font-size: 25px;
+ font-size: 45px;
  color: #4eaacc;
 }
 
@@ -169,7 +169,7 @@ legend {
   font-size: 13px;
   font-weight: 400;
   font-style: italic;
-  padding: 0 15px;
+  padding: 0 25px;
   color: #4eaacc;
 }
 

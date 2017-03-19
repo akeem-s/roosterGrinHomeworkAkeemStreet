@@ -25,6 +25,7 @@ $(document).ready(() => {
         url: 'http://localhost:3000/notes/create',
         data: {user: user, note: note}
       }).done((response) => {
+        $("#initial_information_container").hide()
         $("#note_container").html("<p>Your note is below:</p>"+"<span id='note_text'>'"+response.note+"'</span>"+"<br/><br/>Feel free to compose as many notes as you want! Just select another user and stretch out those twitter fingers!")
         document.getElementById('notes_form').reset()
         $('.button').prop('disabled', true);
