@@ -29,18 +29,34 @@ body {
  align-self: center;
  margin-left: 5vw;
  margin-top: 4vh;
- color: #4eaacc;
+ color: #404040;
 }
 
-#header_underline{
- margin-top: 1px;
- border-color: #404040;
- border-width: 1px;
- border-style: solid;
- display: block;
- margin-left: 27vw;
- margin-top: 9vh;
- width: 50vw;
+#user_breadcrumb {
+ border-bottom-color: #4eaacc;
+ border-bottom-width: 3px;
+ border-bottom-style: solid;
+ display: inline-block;
+ margin-left: 35vw;
+ margin-top: 6vh;
+ width: 18vw;
+ text-align: center;
+ font-size: 1rem;
+ font-weight: 500;
+ padding-bottom: 13px;
+}
+
+#note_breadcrumb {
+  border-bottom-color: #4eaacc;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  display: inline-block;
+  margin-top: 6vh;
+  width: 18vw;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 13px;
 }
 
 /*End Header Css*/
