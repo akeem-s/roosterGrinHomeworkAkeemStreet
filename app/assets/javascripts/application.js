@@ -14,3 +14,29 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+// require base
+$(document).ready(function(){
+  $("#notes_form").submit(function(e) {
+    $("#note_container").empty()
+    e.preventDefault()
+    var form = this
+    var user = $('select[id="user_select"]').val()
+    var note = $('input[name="note"]').val()
+    console.log(user)
+    console.log(note)
+    if(user !== null && note.length > 0){
+      $.post({
+        url: 'http://localhost:3000/notes/create',
+        data: {user: user, note: note}
+      }).done(function(response){
+        $("#note_container").html("<p>Your note is below:</p><br/>'"+response.note+"'"+"<br/><br/>Feel free to compose as many notes as you want! Just select another user and stretch out those twitter fingers!")
+        form.reset()
+
+      })
+    }
+
+    user == null ? $("#user_error_container").html("You must include a User") : $("#user_error_container").empty()
+    note.length < 1 ? $("#note_error_container").html("You must include a Note") : $("#note_error_container").empty()
+
+  })
+})

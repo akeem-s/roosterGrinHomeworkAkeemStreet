@@ -1,0 +1,40 @@
+<div id="form_container">
+  <p>Welcome! Use the form below to generate notes about a user. Notes can include User attributes. Users have the following attributes:</p>
+  <table>
+    <tbody>
+      <tr>
+        <td>@first_name</td>
+        <td>@last_name</td>
+        <td>@phone_number</td>
+        <td>@email</td>
+        <td>@street_address</td>
+        <td>@city</td>
+        <td>@state</td>
+        <td>@zip</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>For example: "Hi there @first_name @last_name! Is @phone_number still the best number to reach you?" will create a note reading: "Hi there Tadd Williams, Is (555) 555-5555 still the best number to reach you?"</p>
+
+  <div id="notes_form_container">
+  <form id="notes_form">
+    <fieldset>
+      <legend>Create Note</legend>
+      <div id="note_container"></div>
+      <div id="user_error_container" class="error_container"></div>
+      <div id="note_error_container" class="error_container"></div>
+      <div class="input-field col s12">
+        <select id="user_select">
+          <option disabled selected> Select a User</option>
+          <% @Users.each do |u|%>
+            <option value="<%= u.first_name %>"><%= u.first_name %></option>
+          <% end %>
+        </select>
+      </div>
+      <input type="text" name="note" placeholder="Hi there @first_name @last_name! Is @phone_number still the best number to reach you?"></input><br>
+      <input type="submit" value="Create Note"></input>
+    </fieldset>
+  </form>
+</div>
+</div>
