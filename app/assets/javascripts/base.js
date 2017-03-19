@@ -30,7 +30,5 @@ $(document).ready(() => {
         $('.button').prop('disabled', true);
       })
     }
-    user == null ? $("#user_error_container").html("You must include a User") : $("#user_error_container").empty()
-    note.length < 1 ? $("#note_error_container").html("You must include a Note") : $("#note_error_container").empty()
   })
 })

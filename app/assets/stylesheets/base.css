@@ -118,12 +118,6 @@ form {
  margin-right: 20vw;
 }
 
-.error_container{
- color: red;
- font-weight: 300;
- font-style: italic;
-}
-
 legend {
  font-size: 25px;
  color: #4eaacc;
