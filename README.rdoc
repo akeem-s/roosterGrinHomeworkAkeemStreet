@@ -1,5 +1,10 @@
 == Akeem's Rooster Grin Homework
 
+
+https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_1.png 
+
+https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_2.png 
+
 Initialization
 bundle install
 rake db:create
@@ -18,8 +23,4 @@ Potential Future Improvements
 * Test Suite
 * Persist notes to db
 
-Before Creation of Note
-https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_1.png 
 
-After Creation of Note
-https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_2.png 
