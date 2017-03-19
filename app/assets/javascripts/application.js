@@ -14,3 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+  $("#notes_form").submit(function(e) {
+    e.preventDefault()
+    console.log($('input[name="note"]').val())
+    console.log($('select[id="user_select"]').val())
+  })
+})
