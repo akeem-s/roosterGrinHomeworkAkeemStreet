@@ -1,5 +1,9 @@
 == Akeem's Rooster Grin Homework
 
+![alt text](https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_1.png "Screenshot One")
+
+![alt text](https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_2.png "Screnshot Two")
+
 Initialization
 bundle install
 rake db:create
