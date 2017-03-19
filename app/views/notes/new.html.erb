@@ -1,4 +1,5 @@
 <div id="form_container">
+  <%= @Users.count %>
   <p>Welcome! Use the form below to generate notes about a user. Notes can include User attributes. Users have the following attributes:</p>
   <table>
     <tbody>
@@ -22,10 +23,9 @@
       <div class="input-field col s12">
         <select>
           <option disabled selected> Select a User</option>
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
+          <% @Users.each do |u|%>
+          <option value="<% u.first_name %>"><%= u.first_name %></option>
+          <% end %>
         </select>
       </div>
       <input type="text" name="firstname" placeholder="Hi there @first_name @last_name! Is @phone_number still the best number to reach you?"><br>
