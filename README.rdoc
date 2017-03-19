@@ -3,7 +3,7 @@
 
 https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_1.png 
 
-Initialization
+= Initialization
 
 
 bundle install
@@ -17,12 +17,12 @@ rake db:seed
 rails s
 
 
-Tech
+= Tech
 
 
 RoR, HTML5, CSS, JavaScript, jQuery, MaterializeCss
 
-Potential Future Improvements
+= Potential Future Improvements
 
 
 * Error handling in NotesController, rather than front end error handling currently in place
