@@ -4,6 +4,7 @@
 https://github.com/akeem-s/roosterGrinHomeworkAkeemStreet/blob/master/app/assets/images/akeem_rooster_1.png 
 
 Initialization
+
 bundle install
 rake db:create
 rake db:migrate
@@ -11,9 +12,11 @@ rake db:seed
 rails s
 
 Tech
+
 RoR, HTML5, CSS, JavaScript, jQuery, MaterializeCss
 
 Potential Future Improvements
+
 * Error handling in NotesController, rather than front end error handling currently in place
 * Resolve issue with MaterializeCss and Roboto fonts that is causing errors on load
 * Edit Materialize.js to change color of underline of input
