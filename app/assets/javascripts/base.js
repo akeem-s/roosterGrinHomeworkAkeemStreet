@@ -26,7 +26,7 @@ $(document).ready(() => {
         data: {user: user, note: note}
       }).done((response) => {
         $("#initial_information_container").hide()
-        $("#note_container").html("<p>Your note is below:</p>"+"<span id='note_text'>'"+response.note+"'</span>"+"<br/><br/>Feel free to compose as many notes as you want! Just select another user and stretch out those twitter fingers!")
+        $("#note_container").html("<h5>Your note is below:</h5>"+"<span id='note_text'><p class='example'>"+response.note+"'</p></span>"+"<br/><br/><p>Feel free to compose as many notes as you want! Just select another user and stretch out those twitter fingers!</p>")
         document.getElementById('notes_form').reset()
         $('.button').prop('disabled', true);
       })
