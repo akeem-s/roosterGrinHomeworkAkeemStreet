@@ -147,6 +147,10 @@ form {
  margin-right: 20vw;
 }
 
+#initial_information_container {
+  margin-top: 1vh;
+}
+
 .instruction_headers {
   font-size: 13px;
   font-weight: 400;
@@ -175,5 +179,9 @@ legend {
 
 .subheader {
   font-weight: 500;
+}
+
+#user_attributes_header {
+  margin-top: 5vh;
 }
 /*End Form Css*/
