@@ -1,0 +1,153 @@
+/*Begin Common Css*/
+
+html {
+  display: flex;
+  flex-direction: column;
+  color: #404040;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+/*End Common Css*/
+
+/*Begin Header Css*/
+
+#header {
+ display: flex;
+ flex: .2;
+ flex-direction: column;
+ margin-left: 0;
+ margin-top: 5vh;
+ height: 10vh;
+ width: 100%;
+}
+
+#header_title {
+ display: flex;
+ align-self: center;
+ margin-left: 5vw;
+ margin-top: 4vh;
+ color: #4eaacc;
+}
+
+#header_underline{
+ margin-top: 1px;
+ border-color: #404040;
+ border-width: 1px;
+ border-style: solid;
+ display: block;
+ margin-left: 27vw;
+ margin-top: 9vh;
+ width: 50vw;
+}
+
+/*End Header Css*/
+
+/*Begin Form CSS*/
+.button:disabled{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #4eaacc;
+    border: 1px solid #4eaacc;
+    border-radius: 0;
+    color: #fff;
+    cursor: default;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.33333;
+    opacity: .5;
+    overflow: visible;
+    padding: 0.55556em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    transition: all 260ms ease-out;
+    transform: translate3d(0, 0, 0);
+    width: 100%;
+}
+
+.button:enabled{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #4eaacc;
+    border: 1px solid #4eaacc;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.33333;
+    overflow: visible;
+    padding: 0.55556em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    transition: all 260ms ease-out;
+    transform: translate3d(0, 0, 0);
+    width: 100%;
+}
+
+.example {
+ font-size: 13px;
+ font-weight: 400;
+ font-style: italic;
+ padding: 0 15px;
+ color: #4eaacc;
+}
+
+form {
+ margin-top: 2rem;
+}
+
+#form_container {
+ display: flex;
+ flex-direction: column;
+ flex: .8;
+ height: 90vh;
+ width: 60vw;
+ margin-top: 5vh;
+ margin-left: 20vw;
+ margin-right: 20vw;
+}
+
+.error_container{
+ color: red;
+ font-weight: 300;
+ font-style: italic;
+}
+
+legend {
+ font-size: 25px;
+ color: #4eaacc;
+}
+
+#note_container{
+ color: black;
+}
+
+#note_text {
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 0 15px;
+  color: #4eaacc;
+}
+
+table {
+ margin-bottom: 1em;
+}
+
+td {
+ font-size: 14px;
+ padding: 0 15px;
+ color: #4eaacc;
+}
+/*End Form Css*/

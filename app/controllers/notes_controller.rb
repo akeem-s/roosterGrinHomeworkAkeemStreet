@@ -43,5 +43,7 @@ class NotesController < ApplicationController
 
       render json: {note: note}
     end
+    
   end
+
 end
