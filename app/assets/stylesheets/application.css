@@ -13,3 +13,60 @@
  *= require_tree .
  *= require_self
  */
+
+ html {
+   display: flex;
+   flex-direction: column;
+   color: #404040;
+ }
+
+ body {
+   display: flex;
+   flex-direction: column;
+ }
+
+ /*Begin Header Css*/
+
+#header {
+  display: flex;
+  flex: .2;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 0;
+  height: 10vh;
+  width: 100%;
+}
+
+#header_title {
+  display: flex;
+  align-self: center;
+  margin-left: 5vw;
+  margin-top: 4vh;
+  color: #404040;
+}
+
+#header_underline{
+  margin-top: 1px;
+  border-color: #404040;
+  border-width: 1px;
+  border-style: solid;
+  display: block;
+  margin-left: 20vw;
+  margin-top: 9vh;
+  width: 60vw;
+}
+
+/*End Header Css*/
+
+/*Begin Form CSS*/
+#form_container {
+  display: flex;
+  flex-direction: column;
+  flex: .8;
+  height: 90vh;
+  width: 60vw;
+  margin-top: 5vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+/*End Form Css*/
