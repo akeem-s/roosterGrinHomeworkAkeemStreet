@@ -18,7 +18,16 @@
 $(document).ready(function(){
   $("#notes_form").submit(function(e) {
     e.preventDefault()
-    console.log($('input[name="note"]').val())
-    console.log($('select[id="user_select"]').val())
+    var user = $('select[id="user_select"]').val()
+    var note = $('input[name="note"]').val()
+    console.log(e.target)
+
+    $.ajax({
+      method: 'post',
+      url: 'http://localhost:3000/notes/create',
+      data: {user: user, note: note}
+    }).then(function(response){
+      console.log(response)
+    })
   })
 })

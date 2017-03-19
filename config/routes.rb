@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   get '/notes/new', to: 'notes#new'
+  post '/notes/create', to: 'notes#create'
+  resources :notes, only: [:new, :create]
+  resources :users
   root 'notes#new'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
